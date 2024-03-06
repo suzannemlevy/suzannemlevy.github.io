@@ -1,0 +1,57 @@
+{
+  "version": "3.85.31840.0",
+  "course_id": "6hCjSiJKkZI",
+  "title": "Lab 4",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Distributive Property"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5dDaQAEjp3J",
+      "title": "Welcome",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6ADDprmcq64",
+      "title": "Objectives",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5nxq0Te6wJA",
+      "title": "Example 1",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6Bj2Vwzwcwh",
+      "title": "Game Practice",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5ec79jBg8aX",
+      "title": "Distributive Property",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "66e1KeWF2d1",
+      "title": "Try it Drag-n-Drop",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6T9TUQtBY14",
+      "title": "Untitled Slide",
+      "scene_index": "1.7"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1220,
+    "height": 658
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

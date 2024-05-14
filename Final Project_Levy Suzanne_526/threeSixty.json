@@ -1,0 +1,187 @@
+{
+  "version": "3.87.32265.0",
+  "course_id": "6KYFfGgstiA",
+  "title": "Final Project",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Goals that SOAR"
+    }
+  ],
+  "slides": [
+    {
+      "id": "5fxBXuJSroi",
+      "title": "Welcome",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6f2XdP01hAz",
+      "title": "Fact vs Opinion",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "5uiz3iLGMAV",
+      "title": "Question 1",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "6GB4GNhqsqD",
+      "title": "Question 2",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "5jnUBARMSd3",
+      "title": "Question 3",
+      "scene_index": "1.5"
+    },
+    {
+      "id": "6GkRnTLswZu",
+      "title": "Question 4",
+      "scene_index": "1.6"
+    },
+    {
+      "id": "6gDkJjduhHc",
+      "title": "Question 5",
+      "scene_index": "1.7"
+    },
+    {
+      "id": "6FFqSiCn0F0",
+      "title": "Question 6",
+      "scene_index": "1.8"
+    },
+    {
+      "id": "6T18AQgdhbX",
+      "title": "Question 7",
+      "scene_index": "1.9"
+    },
+    {
+      "id": "5VG7qFM5cCW",
+      "title": "Question 8",
+      "scene_index": "1.10"
+    },
+    {
+      "id": "5XKPfHmIH7n",
+      "title": "Setting a Specific Goal",
+      "scene_index": "1.11"
+    },
+    {
+      "id": "6EpQyMytivJ",
+      "title": "Is it specific? 1",
+      "scene_index": "1.12"
+    },
+    {
+      "id": "6ZkaAKyIF38",
+      "title": "Is it specific? 2",
+      "scene_index": "1.13"
+    },
+    {
+      "id": "5Zs2chsFROX",
+      "title": "Is it specific? 3",
+      "scene_index": "1.14"
+    },
+    {
+      "id": "5f14ROvZjCI",
+      "title": "Is it specific? 4",
+      "scene_index": "1.15"
+    },
+    {
+      "id": "6debyrBeMsF",
+      "title": "Organized",
+      "scene_index": "1.16"
+    },
+    {
+      "id": "6cL0fNxN9Jl",
+      "title": "Steps Question 1",
+      "scene_index": "1.17"
+    },
+    {
+      "id": "6Bkp9D75pYP",
+      "title": "Steps Question 2",
+      "scene_index": "1.18"
+    },
+    {
+      "id": "6W1ofdcFVYF",
+      "title": "Steps Question 3",
+      "scene_index": "1.19"
+    },
+    {
+      "id": "5sOyBYwv1CN",
+      "title": "Steps Question 4",
+      "scene_index": "1.20"
+    },
+    {
+      "id": "5eQxrtcmWeg",
+      "title": "Untitled Slide",
+      "scene_index": "1.21"
+    },
+    {
+      "id": "5a9q8YlCZ2E",
+      "title": "Summative Assessment #1",
+      "scene_index": "1.22"
+    },
+    {
+      "id": "6ZwPWFQd9Ws",
+      "title": "Summative Assessment #2",
+      "scene_index": "1.23"
+    },
+    {
+      "id": "6ExO1kbzkES",
+      "title": "Summative Assessment 3",
+      "scene_index": "1.24"
+    },
+    {
+      "id": "5WGm07x0Lmg",
+      "title": "Summative Assessment 4",
+      "scene_index": "1.25"
+    },
+    {
+      "id": "6EHCtdVradP",
+      "title": "Summative Assessment 5",
+      "scene_index": "1.26"
+    },
+    {
+      "id": "6rHeu5zFjY9",
+      "title": "Summative Assessment 6",
+      "scene_index": "1.27"
+    },
+    {
+      "id": "5ifYhGVTrg6",
+      "title": "Summative Assessment 7",
+      "scene_index": "1.28"
+    },
+    {
+      "id": "5WBahLStq1u",
+      "title": "Summative Assessment 8",
+      "scene_index": "1.29"
+    },
+    {
+      "id": "6FhpR4tjsNr",
+      "title": "Summative Assessment 9",
+      "scene_index": "1.30"
+    },
+    {
+      "id": "6Fxw0N93X9P",
+      "title": "Summative Assessment 10",
+      "scene_index": "1.31"
+    },
+    {
+      "id": "68kLlvO9oDg",
+      "title": "Quiz Results",
+      "scene_index": "1.32"
+    },
+    {
+      "id": "6S9prDpHOgG",
+      "title": "Credits",
+      "scene_index": "1.33"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1220,
+    "height": 658
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

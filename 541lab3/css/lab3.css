@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	text-align: center;
+	background-color:antiquewhite;
+ 	font-family: "Open Sans", system-ui;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "width" 100;
+}
+#header{
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+	background-color: peachpuff;
+	color: #8D080A;
+}
+a {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:darkred;
+	color: antiquewhite;
+}
+a:hover {
+	font-size:200%;
+	background-color: peachpuff; 
+	color:darkred; 
+}
+
+
+	 
+}
+

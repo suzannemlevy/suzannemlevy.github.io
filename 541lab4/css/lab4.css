@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	background-color:antiquewhite;
+ 	font-family: "Open Sans", system-ui;
+  	font-optical-sizing: auto;
+  	font-style: normal;    
+}
+#header{
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+}
+
+.pies{
+	flex-wrap: wrap;
+	display:inline;
+	}
+
+.pieImage img{
+	width:25%;
+	cursor: pointer;
+	padding: 20px;
+	justify-content:left;
+}
+
+#laticeSteps{
+	justify-content: right;
+	width:40%;
+	padding: 20px;
+}
+#colorSteps{
+	text-justify: right;
+	width:40%;
+	padding: 20px;
+}
+#springformPan{
+	text-justify: right;
+	width:40%;
+	padding: 20px;	
+}
+#sugarCutout{ 
+text-justify:right;
+	width:40%;
+}
+
+a:hover {
+	color:darkred; 
+}
+

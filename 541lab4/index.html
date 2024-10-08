@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>decorations</title>
+	<link href="css/lab4.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div id="header"><h1>How to Decorate
+</h1>
+</div>
+<div>	
+	<h4>Click on a pie for decorating directons.</h4>
+	</div>
+	
+<div class="pies">
+	<div class="pieImage">
+	<img src="img/latice.png" alt="latice Pie" id="latice" onclick="laticeDirections()">
+  </div>
+	<div id="laticeSteps"></div>
+</div>
+	
+	<div class="pies">
+	<div class="pieImage">
+	<img  id="color" src="img/colorful.jpg" alt="colorful cutouts pie" onclick="colorDir()"></div>
+	<div id="colorSteps"></div>
+	</div>	
+	
+	<div class="pies">
+	<div class="pieImage">
+	<img src="img/springform.png" alt="pie from a springorm pan" onclick="springDir()"></div>
+		<div id="springformPan"></div>	
+	</div>
+	
+	<div class="pies">
+	<div class="pieImage"> <img src="img/sugarCutOut.png" alt="sugar cutout pie" onclick="sugar()"></div>
+	<div id="sugarCutout"></div>
+	</div>
+	
+	<script>
+	function laticeDirections(){
+		$("#laticeSteps").html("<a><h5>After rolling out the crust, cut into small strips.  Remove every other strip. Fold back everyother remaining strip and place one of the removed strips. Lay the folded back strips back over the stip and fold back the others. Lay down another of the removed srips.  Repeat until you have a nice latice top. Refridgerate for 30 minutes before putting on top of your filled bottom crust.</h5></a>");
+		$("#sugarCutout").hide();
+		$("#colorSteps").hide();
+		$("#springformPan").hide();	
+		$("#laticeSteps").show();
+		
+	}
+		function colorDir(){
+		$("#colorSteps").html("<a><h5> When you roll your crust out, add a few drops of gel food coloring, then fold your crust into quarters and roll out again.  Once the crust is to size, cut out your desired shapes to place on top of your covered pie.  Refridgerate for 30 minues before topping your filled pie.</h5></a>");	
+		$("#sugarCutout").hide();
+		$("#springformPan").hide();
+		$("#laticeSteps").hide();
+		$("#colorSteps").show();
+		}
+		
+		function springDir(){
+		
+		$("#springformPan").html("<a><h5>Springform pans are great for when you want a taller pie.  Use them just like you would a regular pie pan.  My favorite pies for springform pans are savory pies, like this chicken pot pie.  The vents in it are cut in a chevron patern.</a>");
+		$("#sugarCutout").hide();
+		$("#laticeSteps").hide();
+		$("#colorSteps").hide();
+		$("#springformPan").show();
+			
+		}
+		
+		function sugar() {
+			
+			$("#sugarCutout").html ("<a><h5>Using colored sugar is another way to add flair to a pie.  Coarse sugars work better.  Use your rolling pin to press the sugar into the crust before refridgerating for 30 minutes. For more fun, add different colors to different pieces.</h5><a>");
+			$("#springformPan").hide();
+			$("#laticeSteps").hide();
+			$("#colorSteps").hide();
+			$("#sugarCutout").show();
+		}
+		 
+	
+	</script>
+</body>
+</html>

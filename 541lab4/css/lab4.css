@@ -14,37 +14,40 @@ body
 	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 	text-align: center;
 }
+#wrap {
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+}
 
-.pies{
-	flex-wrap: wrap;
-	display:inline;
-	}
 
 .pieImage img{
 	width:25%;
 	cursor: pointer;
-	padding: 20px;
-	justify-content:left;
-}
+	padding: 10px;
+	}
 
 #laticeSteps{
-	justify-content: right;
+	justify-content: center;
 	width:40%;
-	padding: 20px;
+	padding: 10px;
 }
 #colorSteps{
-	text-justify: right;
+	text-justify: center;
 	width:40%;
-	padding: 20px;
+	padding: 10px;
 }
 #springformPan{
-	text-justify: right;
+	text-justify: center;
 	width:40%;
-	padding: 20px;	
+	padding: 10px;	
 }
 #sugarCutout{ 
-text-justify:right;
+text-justify:center;
 	width:40%;
+	padding:10px;
 }
 
 a:hover {

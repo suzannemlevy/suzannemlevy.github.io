@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background-color:antiquewhite;
+ 
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+#header{
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+}
+.stepTitle {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: peachpuff;
+	color:#8D080A;
+}
+.stepContent{
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
+	background-color:blanchedalmond;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.stepDescription{
+	justify-content: left;
+	width:50%;
+	padding: 20px;
+}
+.stepImage img{
+	width:70%;
+	justify-content: right;
+}
+#header {
+	background-color: peachpuff;
+	color: #8D080A;
+}
+h4 {
+	color:darkred;
+}
+#wrapper {
+	width:90%;
+	margin: 10 auto;
+}
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+}
+.material-icons {
+	color:darkred; 
+	font-size:3em;
+}
+
+img{
+	width:50%;
+}
+h3 {
+   display: inline;
+}

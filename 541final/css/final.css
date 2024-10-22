@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	background-image: url("../img/butcherBlock.png");
+	text-align: center;
+	background-color:antiquewhite;
+ 	font-family: "Open Sans", system-ui;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "width" 100;
+}
+.header{
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+}
+a {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 20px;
+	padding: 15px;
+	margin: 30px;
+	font-size: 125%;
+	background-color:darkred;
+	color: antiquewhite;
+}
+a:hover {
+	font-size:200%;
+	background-color: peachpuff; 
+	color:darkred; 
+}
+
+c{
+	color:blue;
+}
+c:hover{
+	cursor:pointer;
+}
+.stepTitle {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: peachpuff;
+	color:#8D080A;
+}
+.stepContent{
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+
+	background-color:blanchedalmond;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+.stepDescription{
+	justify-content: left;
+	width:50%;
+	padding: 20px;
+}
+.stepImage img{
+	width:70%;
+	justify-content: right;
+}
+h4 {
+	color:darkred;
+}
+.wrapper {
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+}
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+}
+.material-icons {
+	color:darkred; 
+	font-size:3em;
+}
+h3 {
+   display: inline;
+}
+img{
+	width:50%;
+	}
+
+#laticeSteps{
+	justify-content: center;
+	width:40%;
+	padding: 10px;
+}
+#colorSteps{
+	text-justify: center;
+	width:40%;
+	padding: 10px;
+}
+#springformPan{
+	text-justify: center;
+	width:40%;
+	padding: 10px;	
+}
+#sugarCutout{ 
+text-justify:center;
+	width:40%;
+	padding:10px;
+}
+b{
+	color: darkred;
+}
+b:hover{
+	color:black; 
+}
+.pies{
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color: peachpuff;
+	color: darkred;
+}
+.test{
+	width:25%;
+}
+.table {
+	margin:0 auto; /* centers table*/
+	align-content: center;
+	
+}
+
+h:hover{
+	cursor: pointer;}

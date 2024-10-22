@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+	background-image: url("../img/butcherBlock.png");
+	text-align: center;
+	background-color:antiquewhite;
+ 	font-family: "Open Sans", system-ui;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "width" 100;
+}
+#header{
+	background-color: peachpuff;
+	color: #8D080A;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	text-align: center;
+	background-color: peachpuff;
+	color: #8D080A;
+}
+a {
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	padding: 15px;
+	margin: 3px;
+	font-size: 125%;
+	background-color:darkred;
+	color: antiquewhite;
+}
+a:hover {
+	font-size:200%;
+	background-color: peachpuff; 
+	color:darkred; 
+}
+.stepTitle {
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	padding: 2px;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: peachpuff;
+	color:#8D080A;
+}
+h{
+	hover: pointer;
+}
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+.stepContent{
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+	display: flex;
+	flex-wrap: wrap;
+	}
+.stepDescription{
+	justify-content: left;
+	width:50%;
+	padding: 20px;
+}
+.stepImage img{
+	width:70%;
+	justify-content: right;
+}
+h4 {
+	color:darkred;
+}
+#wrapper {
+	width:90%;
+	margin: 10 auto;
+}
+.warning {
+		background-color: #FBB8C4;
+		padding:10px;
+		border-radius:20px;
+}
+.material-icons {
+	color:darkred; 
+	font-size:3em;
+}
+.pieImage img{
+	width:25%;
+	cursor: pointer;
+	padding: 10px;
+	}
+
+#laticeSteps{
+	justify-content: center;
+	width:40%;
+	padding: 10px;
+}
+#colorSteps{
+	text-justify: center;
+	width:40%;
+	padding: 10px;
+}
+#springformPan{
+	text-justify: center;
+	width:40%;
+	padding: 10px;	
+}
+#sugarCutout{ 
+text-justify:center;
+	width:40%;
+	padding:10px;
+}
+b{
+	background:peachpuff;
+	color: darkred;
+}
+b:hover{
+	background:darkred;
+	color:peachpuff; 
+}
+.tip{
+	dislpay:none;
+}
+table {
+	
+	margin:0 auto;  /* centers table*/
+}
+tablepic{
+	border: black 5px solid;
+	width:100%;
+}

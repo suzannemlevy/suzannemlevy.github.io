@@ -1,0 +1,47 @@
+{
+  "version": "3.92.33293.0",
+  "course_id": "64zRZRiDXcx",
+  "title": "pie quiz",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Untitled Scene"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6YhnT5F9Uhd",
+      "title": "Start",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "60rQ0auuGsC",
+      "title": "Question 1",
+      "scene_index": "1.2"
+    },
+    {
+      "id": "6csY27iL3X9",
+      "title": "Question 2",
+      "scene_index": "1.3"
+    },
+    {
+      "id": "5UxRYJ1YOjb",
+      "title": "Question 3",
+      "scene_index": "1.4"
+    },
+    {
+      "id": "6ZzrX3vUrpE",
+      "title": "Quiz Results",
+      "scene_index": "1.5"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1220,
+    "height": 658
+  },
+  "stage": {
+    "width": 960,
+    "height": 540
+  }
+}

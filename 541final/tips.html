@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tips</title>
+	<link href="css/final.css" rel="stylesheet" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+		<h1> All About Pie </h1>
+	</div>
+	<a href="index.html">  History </a>
+	<a href="PeachPie.html"> How to Make a Peach Pie </a>
+	<a href="Decorations.html"> Decorating Ideas </a>
+	<a href="tips.html"> Crust Tips  </a>
+	<a href="types.html"> Recipes </a>
+	<a href="quiz.html"> Quiz </a>
+	<br><br>
+<div class="wrapper"><div class="header"><h2>Tips for a GREAT Crust
+</h2>
+	Hover over and image for an explanation.<br><br>
+</div>
+	
+	<div><table>
+	  <tr>
+			<td> <div id="one" onmouseenter="tipOne()" onmouseleave="hideOne()"> <img src="img/flour.png" id="flour" alt="flour"></div></td>
+		<td> 
+			<div id="two" onmouseenter="tipTwo()" onmouseleave="hideTwo()">
+			<img src="img/butter.png" alt="butter"> </div>
+			</td>
+		<td>
+			<div id="three"	onmouseenter="tipThree()" onmouseleave="hideThree()">
+				<img src="img/water.png" alt="water"></div></td>
+		<td onmouseenter="tipFour()" onmouseleave="hideFour()"><img id= "salt" src="img/salt.png" alt="salt"></td>
+			
+		<td>
+			<div id="five" onmouseenter="tipFive()" onmouseleave="hideFive()"><img id="sugar" src="img/sugar.png" alt="sugar"></div></td></tr>
+			<tr>
+			<td><h4>Flour</h4> <div id="flourTip"> </div></td>
+			<td><h4>Butter</h4><div id="butterTip"></div></td>
+			<td><h4>Water</h4><div id="waterTip"></div></td>
+			<td><h4>Salt</h4><div id="saltTip"></div></td>
+			<td><h4>Sugar</h4><div id="sugarTip"></div></td>
+			</tr>
+			</table>
+	</div>
+	</div>
+<script>
+	function tipOne() {
+	$("#flourTip").html("<h5>Use all purpose flour.  Bread flour has too much gluten and cake flour has too little.</h5>");
+	}
+	function hideOne(){
+		$("#flourTip").html("");
+	}
+	function tipTwo(){
+		$("#butterTip").html("<h5>Make sure your butter is COLD.  If you use softened butter, too much gluten will develop.  Butter gives the best flavor, but you can also use lard or shortening.</h5>");
+		;
+	}
+	function hideTwo(){
+		$("#butterTip").html("")
+	}
+	function tipThree(){
+		$("#waterTip").html("<h5>Use ice cold water.  Warm or tepid water will melt the butter, causing more gluten and a tough crust.</h5>");
+	}
+	function hideThree(){
+		$("#waterTip").html("");
+		
+	}
+	function tipFour(){
+		$("#saltTip").html ("<h5>Salt isn't completely necessary, but it will make it taste better.  If you use salted butter, use a little less salt.</h5");
+	}
+	function hideFour(){
+		$("#saltTip").html ("");
+		
+	}
+	function tipFive(){
+		$("#sugarTip").html ("<h5>Experiment with the quantity of sugar you use.  If you are making a savory pie, omit the sugar altogether.</h5>");
+	}
+	function hideFive(){
+		$("#sugarTip").html ("");
+	}
+
+
+	
+	
+
+	</script>	
+</body>
+</html>
